@@ -5,9 +5,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import About from './pages/AboutPage';
-import PortfolioPage from './pages/PortfolioPage.jsx';
-import ContactPage from './pages/ContactPage.jsx';
-import ResumePage from './pages/ResumePage.jsx';
+import MusicPage from './pages/MusicPage.jsx';
+import SignUpPage from './pages/SignUpPage.jsx';
+import NewsPage from './pages/NewsPage.jsx';
 
 const router = createBrowserRouter([
   {
@@ -19,16 +19,16 @@ const router = createBrowserRouter([
         element: <About/>
       },
       {
-        path: '/portfolio',
-        element: <PortfolioPage/>
+        path: '/music',
+        element: <MusicPage/>
       },
       {
-        path: '/contact',
-        element: <ContactPage/>
+        path: '/signup',
+        element: <SignUpPage/>
       },
       {
-        path: '/resume',
-        element: <ResumePage/>
+        path: '/news',
+        element: <NewsPage/>
       }
     ]
   },

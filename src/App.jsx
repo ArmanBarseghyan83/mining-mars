@@ -7,10 +7,12 @@ import './App.css';
 function App() {
   return (
     <>
-      <Header />
-      <Container className="main-container position-relative min-vh-100">
-        <Outlet />
-        <Footer />
+      <Container>
+        <Header />
+        <Container className="main-container position-relative min-vh-100">
+          <Outlet />
+          <Footer />
+        </Container>
       </Container>
     </>
   );

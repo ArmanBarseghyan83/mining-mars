@@ -1,0 +1,21 @@
+a {
+  color: #506574;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #2a3741;
+}
+
+a svg {
+  font-size: 1.8rem;
+}
+
+.music:hover {
+  filter: brightness(0.9);
+}
+
+.music {
+  transform: rotate(4deg);
+  box-shadow: 1rem 1rem 1rem #506574bb ;
+}
