@@ -30,12 +30,12 @@
 .logo {
   text-transform: uppercase;
   font-family: 'Oswald', sans-serif;
-  color: white;
+  color: #506574;
+  cursor: pointer;
 }
 
 .header a:hover,
 .header a:active,
-.logo:hover,
 .header a.active {
   color: #c7bebe;
 }
